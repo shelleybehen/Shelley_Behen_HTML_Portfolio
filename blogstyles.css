@@ -25,18 +25,12 @@ header {
     width: 75%;
 }
 
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-}
-
 footer {
     display: block;
     text-align: center;
 }
 @media screen and (max-width: 800px) {
-    .leftcolumn, {
+    .leftcolumn {
       width: 100%;
       padding: 0;
     }
