@@ -22,22 +22,27 @@ a {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 25px;
+ }
+.column {
+    width: 29%;
+    height: 600px;
+    padding: 2%;
+    display: inline-block;
+    vertical-align: middle;
 }
-#typewriter {
-    display: inline;
-    float: left;
-    width: 30%;
+
+
+h2 {
+    color: #fff;
 }
-#adventure {
-    display: inline;
-    float: left;
-    width: 30%;
+#column-1 {
+    background-color: hotpink;
+
 }
-.blog {
-    display: block;
-    text-align: right;
-    width: 69%;
+#column-3 {
+       background-color: hotpink;
 }
+
 .icons {
     display: block;
     text-align: center;
