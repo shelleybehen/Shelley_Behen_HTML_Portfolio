@@ -23,9 +23,20 @@ a {
     font-weight: bold;
     font-size: 25px;
 }
-.leftcolumn {
+#typewriter {
+    display: inline;
     float: left;
-    width: 75%;
+    width: 30%;
+}
+#adventure {
+    display: inline;
+    float: left;
+    width: 30%;
+}
+.blog {
+    display: block;
+    text-align: right;
+    width: 69%;
 }
 .icons {
     display: block;
