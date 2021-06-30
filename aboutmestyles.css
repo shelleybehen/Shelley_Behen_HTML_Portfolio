@@ -34,7 +34,11 @@ header {
     padding: 10px 20px;
     color: black;
 }
-  
+.icons {
+    display: block;
+    text-align: center;
+    color:white;
+}
 footer {
     display: block;
     text-align: center;

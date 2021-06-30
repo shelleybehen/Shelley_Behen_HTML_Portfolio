@@ -4,6 +4,7 @@ a {
     color: white;  
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
+    font-weight: bold;
 }  
 
 
@@ -23,6 +24,7 @@ header {
     display: block;
     text-align: center;
     color:white;
+    font-weight: bold;
 }
 form {
     margin: 50px auto;
@@ -69,6 +71,11 @@ form {
 
 .form-item button {
     width: 100px;
+}
+.icons {
+    display: block;
+    text-align: center;
+    color:white;
 }
 footer {
     display: block;
