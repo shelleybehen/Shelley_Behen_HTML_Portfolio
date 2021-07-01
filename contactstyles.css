@@ -6,16 +6,12 @@ a {
     font-size: 25px;
     font-weight: bold;
 }  
-
-
 body {
     background-color: black;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     }
-
-
 header {
     border-bottom: 2px solid hotpink;
     text-align: center;
@@ -30,19 +26,16 @@ form {
     margin: 50px auto;
     width: 90%;
 }
-
 .form-item {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5px;
 }
-
 .form-item label {
     flex-basis: 150px;
     font-size: 22px;
 }
-
 .form-item input,
 .form-item textarea {
     flex-basis: 50%;
@@ -62,13 +55,11 @@ form {
     padding: 5px;
     font-size: 18px;
 }
-
 .form-item button:hover {
     border: 2px solid green;
     background-color: green;
     color: #FFF;
 }
-
 .form-item button {
     width: 100px;
 }

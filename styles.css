@@ -4,7 +4,7 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 header {
-    border-bottom: 2px solid pink;
+    border-bottom: 2px solid hotpink;
     text-align: center;
 }  
 a {  
@@ -14,11 +14,8 @@ a {
     font-size: 25px;
     font-weight: bold;
 }    
-header img {
-    display: inline-block;
-}
 .heading {
-    font-size: 1rem;
+    font-size: 50px;
     text-decoration: none;
     display: inline;
     color: white;
@@ -31,6 +28,28 @@ header img {
     font-weight: bold;
     font-size: 25px;
 }
+.container {
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.items-center {
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+@media (max-width: 500px) {
+.container {
+    width: 100%
+}
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
 .text {
     font-weight: bold;
     color: white;
@@ -41,7 +60,6 @@ header img {
     color:white;
     font-weight: bold;
 }
-
 footer {
     display: block;
     text-align: center;

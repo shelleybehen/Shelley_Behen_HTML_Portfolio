@@ -30,8 +30,6 @@ a {
     display: inline-block;
     vertical-align: middle;
 }
-
-
 h2 {
     color: #fff;
 }
@@ -52,7 +50,7 @@ footer {
     display: block;
     text-align: center;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
     .leftcolumn {
       width: 100%;
       padding: 0;
