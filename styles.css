@@ -3,6 +3,10 @@ html {
     color: #fff;
     font-family: 'Poppins', sans-serif;
 }
+.text {
+    font-weight: bold;
+    color: white;
+}
 header {
     border-bottom: 2px solid hotpink;
     text-align: center;
@@ -32,27 +36,8 @@ a {
     max-width: 1152px;
     padding: 0 15px;
     margin: 0 auto;
-}
-.items-center {
-    align-items: center;
-}
-.flex {
     display: flex;
-}
-@media (max-width: 500px) {
-.container {
-    width: 100%
-}
-}
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-}
-.text {
-    font-weight: bold;
-    color: white;
+    align-items: center;
 }
 .icons {
     display: block;
