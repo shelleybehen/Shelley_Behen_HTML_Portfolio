@@ -39,6 +39,10 @@ a {
     display: flex;
     align-items: center;
 }
+#profile {
+    height: 350px;
+    width: 350px;
+}
 .icons {
     display: block;
     text-align: center;
