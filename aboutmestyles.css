@@ -52,3 +52,10 @@ footer {
         height:fit-content;
     }
 }
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .polaroid {
+        display: block;
+        width: fit-content;
+        height:fit-content;
+    } 
+}
