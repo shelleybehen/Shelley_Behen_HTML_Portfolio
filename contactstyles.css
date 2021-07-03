@@ -30,7 +30,7 @@ header {
     font-weight: bold;
 }
 form {
-    margin: 50px auto;
+    margin:auto;
     width: 90%;
 }
 .form-item {
@@ -84,8 +84,8 @@ footer {
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
     #contact {
      display: block;
-     width: 800px;
-     height: 400px;
+     width: 900px;
+     height: 300px;
      padding: 5%;
      margin:auto;
     }
