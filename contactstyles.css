@@ -18,7 +18,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     width: 100%;
-    }
+}
 header {
     border-bottom: 2px solid hotpink;
     text-align: center;
@@ -48,12 +48,10 @@ form {
     flex-basis: 50%;
     border: 2px solid hotpink;
 }
-
 .form-item input:hover,
 .form-item textarea:hover {
     border: 2px solid green;
 }
-
 .form-item input,
 .form-item textarea,
 .form-item button {
@@ -95,7 +93,7 @@ footer {
         width: 30%;
         height: 30%;
     }
-  }
+}
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     #contact {
         display: block;
@@ -103,5 +101,5 @@ footer {
         height: 100;
         padding: 5%;
         margin:auto;
-       }    
-    }
+    }    
+}

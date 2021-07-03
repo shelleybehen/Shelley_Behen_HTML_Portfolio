@@ -23,7 +23,7 @@ a {
     text-decoration: none;  
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
- }
+}
 .column {
     width: 29%;
     height: 80%;
@@ -41,7 +41,6 @@ h2 {
 #column-3 {
        background-color: hotpink;
 }
-
 #icons {
     display: block;
     text-align: center;
@@ -59,7 +58,7 @@ footer {
      padding: 5%;
      margin: 2%;
     }
-  }
+}
 @media screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .column {
         display: block;
@@ -67,5 +66,5 @@ footer {
         height:fit-content;
         padding: 5%;
         margin: 2%;    
-  }
+    }
 }
