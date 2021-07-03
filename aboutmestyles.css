@@ -2,6 +2,8 @@ html {
     background-color: black;
     color: #fff;
     font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
 }
 a {  
     text-decoration: none;  
@@ -49,4 +51,4 @@ footer {
         width: fit-content;
         height:fit-content;
     }
-  }
+}
