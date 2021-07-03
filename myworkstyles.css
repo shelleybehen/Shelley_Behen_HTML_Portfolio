@@ -16,7 +16,7 @@ header {
     border-bottom: 2px solid hotpink;
     text-align: center;
 }
-.links {
+#links {
     display: block;
     text-align: center;
     color:white;
@@ -28,7 +28,7 @@ header {
     margin-right: auto;
     width: 50%;
 }
-.icons {
+#icons {
     display: inline;
     color:white;
 }
