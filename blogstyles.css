@@ -31,15 +31,17 @@ a {
     display: inline-block;
     vertical-align: middle;
 }
+
 h2 {
     color: #fff;
 }
+
 #column-1 {
     background-color: hotpink;
-
 }
+
 #column-3 {
-       background-color: hotpink;
+    background-color: hotpink;
 }
 #icons {
     display: block;
