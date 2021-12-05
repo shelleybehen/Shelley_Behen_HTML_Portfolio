@@ -1,88 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8"/>
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-        </style>
-        <title>About Me</title>
-        <link rel="stylesheet" href="aboutmestyles.css"/>
-    </head>
-    <body>
-        <header>
-            <h1>About Me</h1>
-        </header>
-        <div id="links">
-            <nav>
-                <a href="index.html" title="Return to the home screen">Home</a>
-                <a href="aboutme.html" title="Some more information about me">About Me</a>
-                <a href="mywork.html" title="Some of my projects">My Work</a>
-                <a href="blog.html" title="Read my blog">Blog</a>
-                <a href="contact.html" title="Get in touch with me">Contact</a>  
-            </nav>
-        </div>     
-        <div>
-            <h2>Summary/Executive Profile</h2>
-        <ul>
-            <li>25 years’ experience in Pharmacy specialising in Oncology</li>
-            <li>Extensive, practical experience in the implementation and application of CHARM oncology software functionality within the clinical setting</li>
-            <li>12 years’ experience conducting small and large group training to doctors, nurses and CHARM Project Officers in CHARM oncology software, Electronic Medication Administration, ePrescribing, Clinical governance, Clinical Trials, Good Manufacturing Practice and Good Documentation Practice</li>
-            <li>Provides clinical advice to the clinical and technical services teams to influence the design and development of CHARM oncology software</li>
-            <li>Experienced in conducting internal quality audits and systems safety analysis through regression, integration and smoke testing of product releases and changes</li>
-            <li>Skilled in creating technical and product documentation such as product specifications, functional design documents, enhancement requests, design overviews and release notes</li>
-            </ul>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+    </style>
+    <title>About Me</title>
+    <link rel="stylesheet" href="aboutmestyles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="heading">About Me</h1>
+    </header>
+    <div id="links">
+      <nav>
+        <a href="index.html" title="Return to the home screen" class="field"
+          >Home</a
+        >
+        <a
+          href="aboutme.html"
+          title="Some more information about me"
+          class="field"
+          >About Me</a
+        >
+        <a href="mywork.html" title="Some of my projects" class="field"
+          >My Work</a
+        >
+        <a href="blog.html" title="Read my blog" class="field">Blog</a>
+        <a href="contact.html" title="Get in touch with me" class="field"
+          >Contact</a
+        >
+      </nav>
+    </div>
+    <div id="container">
+      <div>
+        <div class="bio">
+          <h3>
+            I am a huge Disney/Star Wars/Marvel fan! My downtime is usally spent
+            watching Star Wars or Marvel Movies with my husband, my two boys and
+            my rescue dog Lola.
+          </h3>
         </div>
-        <div>
-            <h2>Career Highlights</h2>
-        <ul>
-            <li>Clinical Lead on the implementation of Slade Health External Ordering HL7 Interface for multiple sites of ICON Cancer Care</li>
-            <li>Clinical Lead on the implementation of the Baxter Healthcare External Ordering HL7 Interface for Queensland Health </li>
-            <li>Provided project support for the implementation of a multi-provider pathology interface for Gippsland Health Alliance</li>
-            <li>Provided project support for the delivery of new implementations of CHARM across multiple sites including Bendigo Health, Bass Coast Health and Far North Day Hospital</li>
-            <li>Coordinated and facilitated the CHARM User Group conference for over 70 clients</li>
-            <li>Current CHARM account manager for ICON Cancer Care, Queensland Health, Baxter Healthcare and Cabrini Private Hospital</li>
-        </ul>
-        </div>
-        <div>
-            <h2>Certifications</h2>
-        <nav>
-            <p>View my <a href="certifications/ITIL4.pdf">ITIL4 Foundation Certification</a></p>
-            <p>View my <a href="certifications/ISTQB.pdf">ISTQB Foundation Tester Certification</a></p>
-         </nav>
-        </div>
-        <div>
-            <h2>Interests</h2>
-            <p>I am a huge Disney/Star Wars/Marvel fan!  My downtime is usally spent watching Star Wars or Marvel Movies with my husband, my two boys and my rescue dog Lola.</p>
         <div class="polaroid">
-            <img src="images/lolanap.jpg" alt="Lola Napping." style="width: 100%">
-        <div class="container">
-            <p>Lola the Rescue Dog Napping</p>
+          <img src="images/lolanap.jpg" alt="Lola Napping." width="100%" />
+          <p class="caption">Lola the Rescue Dog Napping</p>
         </div>
+      </div>
+      <div>
+        <div class="bio">
+          <h3>
+            Before the Covid-19 Pandemic, we used to enjoy travelling to the
+            various Disney locations around the world, and I look forward to
+            being able to travel again one day.
+          </h3>
         </div>
+        <div class="polaroid">
+          <img
+            src="images/falcon.jpg"
+            alt="Behens at Disneyland."
+            style="width: 100%"
+          />
+          <p class="caption">The Behen Family at Galaxy's Edge Disneyland</p>
         </div>
-            <p>Before the Covid-19 Pandemic, we used to enjoy travelling to the various Disney locations around the world, and I look forward to being able to travel again one day.</p>
-        <div class="polaroid">   
-            <img src="images/falcon.jpg" alt="Behens at Disneyland." style="width: 100%">
-        <div class="container">
-            <p>The Behen Family at Galaxy's Edge Disneyland</p>
-        </div>
-        </div>
-            <p>I also love gadgets and being an early adopter of new technology.  Whenever there is a new tech or convenience gadget, I will be the first one to get on the bandwagon!</p>
-    </body>
-    <footer>
-        <div id="icons">
-        <nav>
-            <a href="resume.pdf" title="View my resume">
-                <img src="images/resume.png" alt= "Resume Icon"></a>
-                <a href="https://www.linkedin.com/in/shelley-behen-429b7759/" title="Visit my LinkedIn page">
-                <img src="images/linkedin.png" alt="LinkedIn"></a>
-                <a href="https://shecodes.com.au/" title="Visit the She Codes website">
-                <img src= "images/SheCodesLogo.png" alt= "She Codes Icon"></a>
-                <a href="https://github.com/shelleybehen" title="Visit my GitHub page">
-                <img src= "images/GitHub.png" alt= "GitHub Icon"></a>
-                <a href="https://citadelgroup.com.au/" title="Visit the Citadel Group Website">
-                <img src= "images/citadellogo.png" alt= "Citadel Icon"></a>
-        </nav>
-        </div>
-    </footer>  
+      </div>
+      <div class="bio">
+        <h3>
+          I also love gadgets and being an early adopter of new technology.
+          Whenever there is a new tech or convenience gadget, I will be the
+          first one to get on the bandwagon!
+        </h3>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div id="icons">
+      <nav>
+        <a href="resume.pdf" title="View my resume">
+          <img src="images/resume.png" alt="Resume Icon" class="field"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/shelley-behen-429b7759/"
+          title="Visit my LinkedIn page"
+        >
+          <img src="images/linkedin.png" alt="LinkedIn" class="field"
+        /></a>
+        <a href="https://shecodes.com.au/" title="Visit the She Codes website">
+          <img src="images/SheCodesLogo.png" alt="She Codes Icon" class="field"
+        /></a>
+        <a href="https://github.com/shelleybehen" title="Visit my GitHub page">
+          <img src="images/GitHub.png" alt="GitHub Icon" class="field"
+        /></a>
+        <a
+          href="https://citadelgroup.com.au/"
+          title="Visit the Citadel Group Website"
+        >
+          <img src="images/citadellogo.png" alt="Citadel Icon" class="field"
+        /></a>
+      </nav>
+    </div>
+  </footer>
 </html>
