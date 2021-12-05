@@ -1,61 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-        </style>
-        <title>Contact</title>
-        <link rel="stylesheet" href="contactstyles.css">
-    </head>
-    <body>
-        <header>
-            <h1>Contact Me</h1>
-        </header>
-        <div id="links">
-            <nav>
-                <a href="index.html" title="Return to the home screen">Home</a>
-                <a href="aboutme.html" title="Some more information about me">About Me</a>
-                <a href="mywork.html" title="Some of my projects">My Work</a>
-                <a href="blog.html" title="Read my blog">Blog</a>
-                <a href="contact.html" title="Get in touch with me">Contact</a>   
-            </nav>
-        </div> 
-        <section id="contact">
-        <form action="https://formspree.io/f/mgerzwlg" method="POST">
-        <div class="form-item">
-            <label for="name">Name</label>        
-            <input type="text" id="name" name="name">
-        </div>
-        <div class="form-item">        
-            <label for="mail">Email</label>        
-            <input type="email" id="mail" name="email">    
-        </div>
-        <div class="form-item">        
-            <label for="message">Message</label>        
-            <textarea id="message" name="message"></textarea>    
-        </div>
-            <div class="form-item">        
-                <button type="submit">Send</button>    
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+    </style>
+    <title>Contact</title>
+    <link rel="stylesheet" href="contactstyles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="heading">Contact Me</h1>
+    </header>
+    <div id="links">
+      <nav>
+        <a href="index.html" title="Return to the home screen" class="field"
+          >Home</a
+        >
+        <a
+          href="aboutme.html"
+          title="Some more information about me"
+          class="field"
+          >About Me</a
+        >
+        <a href="mywork.html" title="Some of my projects" class="field"
+          >My Work</a
+        >
+        <a href="blog.html" title="Read my blog" class="field">Blog</a>
+        <a href="contact.html" title="Get in touch with me" class="field"
+          >Contact</a
+        >
+      </nav>
+    </div>
+    <section>
+      <div id="section">
+        <img
+          src="images/telephone.jpg"
+          alt="Telephone."
+          id="telephone"
+          width="100%"
+        />
+
+        <div id="contact">
+          <form action="https://formspree.io/f/mgerzwlg" method="POST">
+            <div class="form-item">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" />
             </div>
-        </form> 
-    </section>
-        <img src="images/telephone.jpg" alt="Telephone." id= "telephone">
-    </body>
-    <footer>
-        <div id="icons">
-            <nav>
-                <a href="resume.pdf" title="View my resume">
-                <img src="images/resume.png" alt= "Resume Icon"></a>
-                <a href="https://www.linkedin.com/in/shelley-behen-429b7759/" title="Visit my LinkedIn page">
-                <img src="images/linkedin.png" alt="LinkedIn"></a>
-                <a href="https://shecodes.com.au/" title="Visit the She Codes website">
-                <img src= "images/SheCodesLogo.png" alt= "She Codes Icon"></a>
-                <a href="https://github.com/shelleybehen" title="Visit my GitHub page">
-                <img src= "images/GitHub.png" alt= "GitHub Icon"></a>
-                <a href="https://citadelgroup.com.au/" title="Visit the Citadel Group Website">
-                <img src= "images/citadellogo.png" alt= "Citadel Icon"></a>
-            </nav>
+            <div class="form-item">
+              <label for="mail">Email</label>
+              <input type="email" id="mail" name="email" />
+            </div>
+            <div class="form-item">
+              <label for="message">Message</label>
+              <textarea id="message" name="message"></textarea>
+            </div>
+            <div class="form-item">
+              <button type="submit">Send</button>
+            </div>
+          </form>
         </div>
-    </footer>  
+      </div>
+    </section>
+  </body>
+  <footer>
+    <div id="icons">
+      <nav>
+        <a href="resume.pdf" title="View my resume">
+          <img src="images/resume.png" alt="Resume Icon" class="field"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/shelley-behen-429b7759/"
+          title="Visit my LinkedIn page"
+        >
+          <img src="images/linkedin.png" alt="LinkedIn" class="field"
+        /></a>
+        <a href="https://shecodes.com.au/" title="Visit the She Codes website">
+          <img src="images/SheCodesLogo.png" alt="She Codes Icon" class="field"
+        /></a>
+        <a href="https://github.com/shelleybehen" title="Visit my GitHub page">
+          <img src="images/GitHub.png" alt="GitHub Icon" class="field"
+        /></a>
+        <a
+          href="https://citadelgroup.com.au/"
+          title="Visit the Citadel Group Website"
+        >
+          <img src="images/citadellogo.png" alt="Citadel Icon" class="field"
+        /></a>
+      </nav>
+    </div>
+  </footer>
 </html>

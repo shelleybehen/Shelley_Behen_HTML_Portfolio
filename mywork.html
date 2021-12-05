@@ -1,44 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-        </style>
-        <title>My Work</title>
-        <link rel="stylesheet" href="myworkstyles.css">
-    </head>
-    <body>
-        <header>
-            <h1>My Work</h1>
-        </header>   
-        <div id="links">
-            <nav>
-                <a href="index.html" title="Return to the home screen">Home</a>
-                <a href="aboutme.html" title="Some more information about me">About Me</a>
-                <a href="mywork.html" title="Some of my projects">My Work</a>
-                <a href="blog.html" title="Read my blog">Blog</a>
-                <a href="contact.html" title="Get in touch with me">Contact</a>  
-            </nav> 
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+    </style>
+    <title>My Work</title>
+    <link rel="stylesheet" href="myworkstyles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="heading">My Work</h1>
+    </header>
+    <div id="links">
+      <nav>
+        <a href="index.html" title="Return to the home screen" class="field"
+          >Home</a
+        >
+        <a
+          href="aboutme.html"
+          title="Some more information about me"
+          class="field"
+          >About Me</a
+        >
+        <a href="mywork.html" title="Some of my projects" class="field"
+          >My Work</a
+        >
+        <a href="blog.html" title="Read my blog" class="field">Blog</a>
+        <a href="contact.html" title="Get in touch with me" class="field"
+          >Contact</a
+        >
+      </nav>
+    </div>
+    <div>
+      <nav id="columns">
+        <div id="column-1" class="column">
+          <a
+            href="https://secret-springs-34630.herokuapp.com/"
+            title="Check out my crowdfunding app Parentals!"
+          >
+            <img
+              src="images/parentals.png"
+              alt="Parentals"
+              id="parentals"
+              width="100%"
+              height="100%"
+          /></a>
+          <h3>Crowdfunding App</h3>
         </div>
-        <div>
-            <img src="images/wip.jpg" alt="Work in Progress." id="center">
+        <div id="column-2" class="column">
+          <a
+            href="https://powerful-waters-47660.herokuapp.com/news/"
+            title="Check out my She Codes News app!"
+          >
+            <img
+              src="images/newsapp.png"
+              alt="NewsApp"
+              id="shecodesnews"
+              width="100%"
+              height="100%"
+          /></a>
+          <h3>She Codes News App</h3>
         </div>
-    </body>
-    <footer>
-        <div id="icons">
-            <nav>
-                <a href="resume.pdf" title="View my resume">
-                    <img src="images/resume.png" alt= "Resume Icon"></a>
-                    <a href="https://www.linkedin.com/in/shelley-behen-429b7759/" title="Visit my LinkedIn page">
-                    <img src="images/linkedin.png" alt="LinkedIn"></a>
-                    <a href="https://shecodes.com.au/" title="Visit the She Codes website">
-                    <img src= "images/SheCodesLogo.png" alt= "She Codes Icon"></a>
-                    <a href="https://github.com/shelleybehen" title="Visit my GitHub page">
-                    <img src= "images/GitHub.png" alt= "GitHub Icon"></a>
-                    <a href="https://citadelgroup.com.au/" title="Visit the Citadel Group Website">
-                    <img src= "images/citadellogo.png" alt= "Citadel Icon"></a>
-            </nav>
+        <div id="column-3" class="column">
+          <a
+            href="https://github.com/shelleybehen/she_codes_python"
+            title="Check out my weather app!"
+          >
+            <img
+              src="images/weather.png"
+              alt="Weather"
+              id="weatherapp"
+              width="100%"
+              height="100%"
+          /></a>
+          <h3>Weather Project</h3>
         </div>
-    </footer>  
+      </nav>
+    </div>
+  </body>
+  <br />
+  <br />
+  <footer>
+    <div id="icons">
+      <nav>
+        <a href="resume.pdf" title="View my resume">
+          <img src="images/resume.png" alt="Resume Icon" class="field"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/shelley-behen-429b7759/"
+          title="Visit my LinkedIn page"
+        >
+          <img src="images/linkedin.png" alt="LinkedIn" class="field"
+        /></a>
+        <a href="https://shecodes.com.au/" title="Visit the She Codes website">
+          <img src="images/SheCodesLogo.png" alt="She Codes Icon" class="field"
+        /></a>
+        <a href="https://github.com/shelleybehen" title="Visit my GitHub page">
+          <img src="images/GitHub.png" alt="GitHub Icon" class="field"
+        /></a>
+        <a
+          href="https://citadelgroup.com.au/"
+          title="Visit the Citadel Group Website"
+        >
+          <img src="images/citadellogo.png" alt="Citadel Icon" class="field"
+        /></a>
+      </nav>
+    </div>
+  </footer>
 </html>
