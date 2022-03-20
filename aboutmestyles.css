@@ -46,7 +46,7 @@ header {
 }
 
 .bio {
-  padding-right: 10%;
+  padding-right: 5%;
   display: inline-block;
   text-align: left;
   justify-content: right;
@@ -77,7 +77,6 @@ header {
 
 #icons {
   display: block;
-  text-align: center;
   color: white;
   font-weight: bold;
 }
